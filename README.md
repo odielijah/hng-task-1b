@@ -2,7 +2,7 @@
 
 A high-fidelity, accessible, and fully testable Profile Card built for the HNG i14 Frontend Wizards Stage 1B task. This project focuses on clean typography, responsive design, and precise attribute mapping for automated testing.
 
-**[View Live Demo](https://hng-task-0-odielijah.netlify.app/)**
+**[View Live Demo](https://hng-task-1b-odielijah.netlify.app/)**
 
 ## 📸 Project Preview
 <img width="1680" height="1050" alt="Screenshot 2026-04-17 at 3 01 53 pm" src="https://github.com/user-attachments/assets/64be4db4-e08f-45a6-9edb-bb5e71f91eca" />
