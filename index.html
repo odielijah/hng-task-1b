@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG Stage 1B Profile Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <article class="profile-card" data-testid="test-profile-card">
+        <div class="avatar-panel">
+          <figure class="profile-image-container">
+            <img
+              src="https://avatars.githubusercontent.com/u/101397455?v=4"
+              alt="Professional portrait of the user"
+              data-testid="test-user-avatar"
+              class="avatar"
+            />
+          </figure>
+          <header>
+            <h2 data-testid="test-user-name">Elijah Odinaka Esther</h2>
+          </header>
+          <p class="role">Frontend Developer</p>
+          <div class="time-container">
+            <span data-testid="test-user-time" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <div class="profile-content">
+          <p data-testid="test-user-bio">
+            Passionate about clean code, accessible UI, and magical user
+            experiences.
+          </p>
+
+          <hr class="divider" />
+
+          <div class="lists-grid">
+            <section>
+              <h3>Hobbies</h3>
+              <ul data-testid="test-user-hobbies">
+                <li>Chess</li>
+                <li>Cycling</li>
+                <li>Open Source</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3>Dislikes</h3>
+              <ul data-testid="test-user-dislikes">
+                <li>Inaccessible forms</li>
+                <li>Unstructured CSS</li>
+              </ul>
+            </section>
+          </div>
+
+          <hr class="divider" />
+
+          <nav class="social-links" data-testid="test-user-social-links">
+            <a
+              href="https://github.com/odielijah"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-github"
+              >GitHub</a
+            >
+            <a
+              href="www.linkedin.com/in/odinaka-elijah"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-linkedin"
+              >LinkedIn</a
+            >
+            <a
+              href="https://twitter.com/iamodija"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-twitter"
+              >Twitter</a
+            >
+          </nav>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
